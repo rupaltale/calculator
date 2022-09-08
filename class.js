@@ -9,6 +9,6 @@ function display(value) {
  
 function calculate() {
     var x = document.getElementById("result").value;
-    var y = eval(x);
-    document.getElementById("result").value = y;
+    var z = eval(x);
+    document.getElementById("result").value = z;
 }
